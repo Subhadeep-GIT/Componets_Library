@@ -1,0 +1,29 @@
+.pixel-tile {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* square tiles */
+  perspective: 800px;
+}
+
+.pixel-tile-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.pixel-tile:hover .pixel-tile-inner {
+  transform: rotateY(180deg);
+}
+
+.pixel-tile-front,
+.pixel-tile-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Back side rotates 180deg */
+.pixel-tile-back {
+  transform: rotateY(180deg);
+}

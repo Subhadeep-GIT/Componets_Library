@@ -1,0 +1,36 @@
+.web-banner {
+  width: 100%;
+  min-height: 200px; /* height of banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6b73ff, #000dff); /* gradient background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.banner-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: white;
+  color: #000dff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banner-content button:hover {
+  background-color: #f0f0f0;
+}
