@@ -1,6 +1,6 @@
 .hero-grid {
   width: 100%;
-  height: 800px;           /* fixed height */
+  height: 600px;           /* fixed height */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
   grid-auto-rows: 1fr;    /* keeps tiles square */
