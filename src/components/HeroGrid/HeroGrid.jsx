@@ -11,7 +11,7 @@ const IMAGES = [
 ];
 
 const TILE_SIZE = 20; // in px
-const HERO_GRID_HEIGHT = 40; // in px
+const HERO_GRID_HEIGHT = 80; // in px
 
 const HeroGrid = () => {
   const [tileCount, setTileCount] = useState(0);

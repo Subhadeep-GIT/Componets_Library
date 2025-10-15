@@ -1,6 +1,6 @@
 .hero-grid {
   width: 100%;
-  height: 800px;           /* fixed height */
+  height: 40px;           /* fixed height */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
   grid-auto-rows: 1fr;    /* keeps tiles square */
@@ -10,6 +10,9 @@
   background-color: #111;
   padding-bottom: 20px; /* adds space inside container */
   box-sizing: border-box; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+  grid-template-rows: repeat(auto-fit, minmax(20px, 1fr)) auto;
 }
 
 .hero-grid > * {
