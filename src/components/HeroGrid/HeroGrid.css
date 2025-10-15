@@ -7,11 +7,11 @@
   gap: 1px;
   overflow: hidden;       /* prevent tiles from overflowing */
   position: relative;     /* ensures child positioning stays inside */
-  background-color: #111;
+  background-color: #182c65;
   padding-bottom: 20px; /* adds space inside container */
   box-sizing: border-box; 
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   grid-template-rows: repeat(auto-fit, minmax(20px, 1fr)) auto;
 }
 
